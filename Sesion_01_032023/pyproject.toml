@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "sesion-01-032023"
+version = "0.1.0"
+description = ""
+authors = ["Camilo Martinez"]
+readme = "README.md"
+packages = [{include = "sesion_01_032023"}]
+
+[tool.poetry.dependencies]
+python = "^3.11.2"
+numpy = "^1.24.2"
+rise = "^5.7.1"
+matplotlib = "^3.7.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
